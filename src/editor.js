@@ -15,7 +15,7 @@ function createHTML(options = {}) {
     <style>
         * {outline: 0px solid transparent;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-touch-callout: none;}
         html, body { margin: 0; padding: 0;font-family: Arial, Helvetica, sans-serif; font-size:1em;}
-        body { overflow-y: hidden; -webkit-overflow-scrolling: touch;height: 100%;background-color: ${backgroundColor};}
+        body { overflow-y: auto; -webkit-overflow-scrolling: touch;height: 100%;background-color: ${backgroundColor};}
         img {max-width: 98%;margin-left:auto;margin-right:auto;display: block;}
         video {max-width: 98%;margin-left:auto;margin-right:auto;display: block;}
         .content {font-family: Arial, Helvetica, sans-serif;color: ${color}; width: 100%;height: 100%;-webkit-overflow-scrolling: touch;padding-left: 0;padding-right: 0;}
